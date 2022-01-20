@@ -1,0 +1,16 @@
+.square {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: $secondary;
+
+  &__pink-bg {
+    background-color: $primary;
+  }
+
+  &__pink-border {
+    border: 2px solid $primary;
+    background-color: white;
+  }
+}
